@@ -13,11 +13,11 @@ int main()
   printf("Enter your age: ");
   scanf("%7s", age_c);
   age = atoi(age_c);
-  printf("You're %i.", age);
+  printf("You're %i.\n", age);
 
-  printf("You have a birthday.");
+  printf("You have a birthday.\n");
   age_up(&age);
-  printf("Now you're %i.", age);
+  printf("Now you're %i.\n", age);
 
   return 0;
 }
