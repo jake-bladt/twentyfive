@@ -7,4 +7,5 @@ int main()
   {
     puts("Loop. Loopy doop. Loopy doop. Loopy doop a-doo-wa.");
   }
+  return 0;
 }
