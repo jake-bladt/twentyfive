@@ -9,12 +9,12 @@ In a level two game, there will be two variables - a and b, which will resolve t
 
 #### Valid Set
 ```
-a &gt; b
+a > b
 ```
 
 #### Invalid Set
 ```
-a &gt; b
+a > b
 b = 1
 ```
 
