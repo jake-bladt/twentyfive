@@ -17,7 +17,7 @@ int main()
   return 0;
 }
 
-void age_up(int *age)
+void age_up(int* age)
 {
   *age++;
 }
