@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+void age_up(int* age)
+{
+  *age += *age;
+}
+
 int main() 
 {
   char age_c[8];
@@ -15,9 +20,4 @@ int main()
   printf("Now you're %i.", age);
 
   return 0;
-}
-
-void age_up(int *age)
-{
-  *age += *age;
 }
