@@ -2,4 +2,4 @@
 *.exe
 
 # VM artifacts
-\sandbox\.vagrant
+sandbox/.vagrant
