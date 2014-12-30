@@ -25,3 +25,5 @@ The game is called twenty-five because, given all the letters of the standard En
 
 ## Purpose
 I've played around with the notion of twenty-five as a pencil-and-paper puzzle game on-and-off for a few years. I've also wanted to study compiler creation. While I've been a software developer for 20+ years, I never studied computer science. Based on the titles and descriptions of comp-sci courses, I think I've picked up most of the concepts I would have learned with a formal education. 
+
+Compiler design is a good way to fill in the gaps. It makes use of a lot of the concepts taught in lower-level classes. Unfortunately, non-trivial compilers for Turing-complete languages take years of work to get right. Twenty-five will make use of the concepts learned studying compilers while remaining constrained in its success conditions.
