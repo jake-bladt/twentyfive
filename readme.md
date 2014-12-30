@@ -11,6 +11,7 @@ In a level two game, there will be two variables - a and b, which will resolve t
 ```
 a > b
 ```
+Within the given constraints, the only possible values are a=1 and b=0.
 
 #### Invalid Set
 ```
@@ -18,3 +19,6 @@ a > b
 b = 1
 ```
 
+This set is invalid because there are no exclusive values from the set of [0,1] where b is 1 and a > 1.
+
+The game is called twenty-five because, given all the letters of the standard English alphabet, the highest level (26) allows for values from 0-25.
