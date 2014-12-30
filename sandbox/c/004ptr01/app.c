@@ -11,7 +11,7 @@ int main()
   puts("You're %i.", &age);
 
   puts("You have a birthday.");
-  age_up(age);
+  age_up(&age);
   puts("Now you're %i.", age);
 
   return 0;
