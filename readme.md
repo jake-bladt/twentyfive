@@ -11,7 +11,7 @@ In a level two game, there will be two variables - a and b, which will resolve t
 ```
 a > b
 ```
-Within the given constraints, the only possible values are a=1 and b=0.
+Within the given constraints, the only possible values are a = 1 and b = 0.
 
 #### Invalid Set
 ```
