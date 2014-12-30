@@ -1,1 +1,5 @@
+# Build output
+*.exe
+
+# VM artifacts
 \sandbox\.vagrant
