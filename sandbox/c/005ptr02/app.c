@@ -7,7 +7,7 @@ int main()
   int i;
   for(i = 0; i < 4; i++)
   {
-    printf("Salary for engineer level %i is %i.\n", i, i[salary_levels]);
+    printf("Salary for engineer level %i is %i.\n", i + 1, i[salary_levels]);
   }
   return 0;
 }
