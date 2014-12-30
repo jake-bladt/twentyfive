@@ -5,19 +5,19 @@ int main()
   char age_c[8];
   int age;
 
-  puts("Enter your age: ");
+  printf("Enter your age: ");
   scanf("%7s", age_c);
   age = atoi(age_c);
-  puts("You're %i.", &age);
+  printf("You're %i.", age);
 
-  puts("You have a birthday.");
+  printf("You have a birthday.");
   age_up(&age);
-  puts("Now you're %i.", age);
+  printf("Now you're %i.", age);
 
   return 0;
 }
 
-void age_up(int* age)
+void age_up(int *age)
 {
   *age += *age;
 }
