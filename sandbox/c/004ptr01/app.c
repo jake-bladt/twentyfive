@@ -19,5 +19,5 @@ int main()
 
 void age_up(int* age)
 {
-  *age++;
+  *age += *age;
 }
