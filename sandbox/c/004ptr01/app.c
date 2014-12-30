@@ -2,7 +2,7 @@
 
 void age_up(int* age)
 {
-  *age++;
+  *age += 1;
 }
 
 int main() 
