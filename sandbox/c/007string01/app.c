@@ -29,7 +29,7 @@ int main()
   };
 
   int ndx;
-  srand(time(NULL)));
+  srand(time(NULL));
   ndx = rand() % 20;
   printf("%s.\n" fortunes[ndx]);
 
