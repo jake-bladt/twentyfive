@@ -2,6 +2,8 @@
 
 void age_up(int* age)
 {
+  // Don't use the increment (++) operator here. It
+  // has a different meaning with pointers.
   *age += 1;
 }
 
