@@ -31,7 +31,7 @@ int main()
   int ndx;
   srand(time(NULL));
   ndx = rand() % 20;
-  printf("%s.\n" fortunes[ndx]);
+  printf("%s.\n", fortunes[ndx]);
 
   return 0;
 }
