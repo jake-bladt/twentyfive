@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 int main()
 {
@@ -25,6 +27,11 @@ int main()
   	"Outlook not so good",
   	"Doubtful"
   };
+
+  int ndx;
+  srand(time(NULL)));
+  ndx = rand() % 20;
+  printf("%s.\n" fortunes[ndx]);
 
   return 0;
 }
