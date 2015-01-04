@@ -6,7 +6,7 @@ char secret_words[][16] = { "yes", "no", "the", "lotion", "admin", "fnord", "sec
 int test_for_secret_words(char input[])
 {
   int i;
-  for(i = 0; i < 7, i++) {
+  for(i = 0; i < 7; i++) {
     if(strstr(input, secret_words[i]) {
       return i;
     }
