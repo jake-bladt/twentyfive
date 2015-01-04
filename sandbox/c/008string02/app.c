@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-char[][16] secret_words = { "yes", "no", "the", "lotion", "admin", "fnord", "secret" };
+char secret_words[][16] = { "yes", "no", "the", "lotion", "admin", "fnord", "secret" };
 
 int test_for_secret_words(char[] input)
 {
