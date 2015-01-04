@@ -7,7 +7,7 @@ int test_for_secret_words(char input[])
 {
   int i;
   for(i = 0; i < 7; i++) {
-    if(strstr(input, secret_words[i]) {
+    if(strstr(input, secret_words[i])) {
       return i;
     }
   }
