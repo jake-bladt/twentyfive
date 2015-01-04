@@ -3,7 +3,7 @@
 
 char secret_words[][16] = { "yes", "no", "the", "lotion", "admin", "fnord", "secret" };
 
-int test_for_secret_words(char[] input)
+int test_for_secret_words(char input[])
 {
   int i;
   for(i = 0; i < 7, i++) {
