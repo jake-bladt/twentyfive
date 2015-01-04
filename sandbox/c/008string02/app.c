@@ -18,13 +18,13 @@ int main()
 {
   char input_sentence[80];
   printf("Search for: ");
-  scanf("%79s", search_for);
+  scanf("%79s", input_sentence);
   int res;
-  res = test_for_secret_words(search_for);
+  res = test_for_secret_words(input_sentence);
   if(res == -1) {
     puts("No secret words found.");
   } else {
-    printf("Found secret word %s", secret_words[res]);
+    printf("Found secret word '%s.'", secret_words[res]);
   }
   return 0;
 }
