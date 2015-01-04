@@ -17,7 +17,7 @@ int test_for_secret_words(char input[])
 int main()
 {
   char input_sentence[80];
-  printf("Search for: ");
+  printf("Search in: ");
   scanf("%79s", input_sentence);
   int res;
   res = test_for_secret_words(input_sentence);
