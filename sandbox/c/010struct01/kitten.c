@@ -3,7 +3,7 @@
 
 char * purr(struct kitten k)
 {
-	char* msg;
+	char[80] msg = {};
 	sprintf(msg, "Purr. My name is %s. I am %i years old.", k.name, k.age);
 	return msg;
 }
