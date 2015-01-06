@@ -8,8 +8,7 @@ int main()
 
 	char princess_purr[80];
 	purr(princess, princess_purr);
-
-	printf("%s\n", purr(princess_purr));
+	printf("%s\n", princess_purr);
 
 	return 0;
 }
