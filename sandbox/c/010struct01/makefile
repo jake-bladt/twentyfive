@@ -3,4 +3,4 @@ kitten.o: kitten.c kitten.h
 app.o: kitten.c kitten.h app.c
 	gcc -c app.c
 purr: kitten.o app.o
-	gcc -c kitten.o app.o -o purr
+	gcc kitten.o app.o -o purr
