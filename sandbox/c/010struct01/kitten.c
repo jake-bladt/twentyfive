@@ -1,4 +1,4 @@
-#include <string.h>
+#include <stdio.h>
 #include "kitten.h"
 
 char * purr(struct kitten k)
