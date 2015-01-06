@@ -10,7 +10,7 @@ int main()
 	target_floor = (2 == current_floor) ? 1 : select_floor();
 	if(target_floor >= current_floor)
 	{
-		printf("Can not go to floor %i. This elevator is going down.", target_floor);
+		printf("Can not go to floor %i. This elevator is going down.\n", target_floor);
 	}
 	else
 	{
