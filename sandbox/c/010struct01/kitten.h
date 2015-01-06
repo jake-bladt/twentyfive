@@ -4,4 +4,4 @@ struct kitten {
 	int age;
 };
 
-char *purr(struct kitten, char *msg);
+void purr(struct kitten, char *msg);
