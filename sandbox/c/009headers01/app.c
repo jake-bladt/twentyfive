@@ -14,7 +14,7 @@ int main()
 	}
 	else
 	{
-		printf("Welcome to floor %i. Get out.", target_floor);
+		printf("Welcome to floor %i. Get out.\n", target_floor);
 	}
 	return 0;
 }
