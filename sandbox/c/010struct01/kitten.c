@@ -3,7 +3,7 @@
 
 void get_age(struct kitten *k, char *age_msg)
 {
-	int numeric_age = (k->age.overflow == "many" ? 4 : k->age.years);
+	int numeric_age = k->age.overflow == "many" ? 4 : k->age.years;
 	sprintf(age_msg, "%i", numeric_age);
 }
 
