@@ -1,12 +1,12 @@
 typedef union {
 	short years;
 	const char* overflow;
-}
+} kitten_age;
 
 struct kitten {
 	const char* name;
 	const char* breed;
-	int age;
+	kitten_age age;
 };
 
 void purr(struct kitten *k, char *msg);
